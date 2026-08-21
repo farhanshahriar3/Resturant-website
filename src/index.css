@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-jakarta: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-geist: 'Geist', system-ui, -apple-system, sans-serif;
+  --color-art-paper: #F8F7F3;
+  --color-art-bone: #EAE8E2;
+  --color-art-stone: #D1CFC7;
+  --color-art-ink: #121212;
+}
+
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.font-geist {
+  font-family: 'Geist', sans-serif !important;
+}
+
+/* Artistic Flair Text Stroke Utilities */
+.stroke-text-dark {
+  -webkit-text-stroke: 1.5px #121212;
+}
+
+.stroke-text-light {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.85);
+}
+
+.stroke-text-thin {
+  -webkit-text-stroke: 1px #121212;
+}
+
+/* Artistic Grid Hairlines */
+.artistic-border {
+  border-color: rgba(18, 18, 18, 0.1);
+}
+
+.artistic-border-dark {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-panel-dark {
+  background: rgba(18, 18, 18, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Interactive States */
+.hover-lift {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F7F3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}

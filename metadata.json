@@ -1,0 +1,6 @@
+{
+  "name": "Modak-Cafe n Restaurant",
+  "description": "Sanawad's premier cafe and restaurant offering handcrafted sweets, artisan coffee, and fine dining.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
