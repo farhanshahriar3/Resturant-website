@@ -1,5 +1,10 @@
 # 🥟 Modak Cafe n Restaurant — Web Application
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Website-success?style=for-the-badge&logo=vercel)](https://modak-cafe-restaurant.vercel.app)
+[![Vercel Deployment](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel)](https://modak-cafe-restaurant.vercel.app)
+
+> 🔗 **Live Demo URL:** [https://modak-cafe-restaurant.vercel.app](https://modak-cafe-restaurant.vercel.app)
+
 A modern, high-performance web experience for **Modak-Cafe n Restaurant** (Sanawad, MP), built with React, TypeScript, Tailwind CSS, and Formspree integration.
 
 ---
